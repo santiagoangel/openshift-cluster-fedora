@@ -14,6 +14,13 @@ dnf install -y docker git
 dnf install -y https://kojipkgs.fedoraproject.org//packages/ansible/2.2.0.0/3.fc25/noarch/ansible-2.2.0.0-3.fc25.noarch.rpm
 dnf install -y python-cryptography pyOpenSSL.x86_64
 
+#python 3 set as default
+alternatives --install /usr/bin/python python /usr/bin/python3 2
+alternatives --install /usr/bin/python python /usr/bin/python2 1
+
+#choose python3
+alternatives --config python
+
 
 
 #clone git projects
