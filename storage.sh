@@ -69,5 +69,8 @@ chmod -R 777 /mnt/gv0
 ls /mnt/gv0/
 gluster volume status
 
-oc create -f gluster-service.yaml
-oc create -f gluster-endpoints.yaml
+#apply in project e.g. payments-gateway
+#oc new-project payments-gateway
+#oc login -n payments-gateway -u system:admin
+#oc create -f gluster-service.yaml
+#oc create -f gluster-endpoints.yaml
