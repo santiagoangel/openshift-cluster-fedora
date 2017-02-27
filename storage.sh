@@ -11,7 +11,7 @@ mkdir -p /data/gv0
 firewall-cmd --zone=public --add-port=24007-24008/tcp --permanent
 firewall-cmd --zone=public --add-port=49152-49251/tcp --permanent
 firewall-cmd --reload
-gluster volume create gv0 cloud.successfulsoftware.io:/data/gv0  force
+gluster volume create gv0 $MASTERIP:/data/gv0  force
 gluster volume start gv0
 
 # create pv
