@@ -26,11 +26,13 @@ spec:
     storage: 10Gi
   accessModes:
     - ReadWriteOnce
+    - ReadOnlyMany
+    - ReadWriteMany
   glusterfs:
     endpoints: glusterfs-cluster
     path: gv0
     readOnly: false
-  persistentVolumeReclaimPolicy: Retain
+  persistentVolumeReclaimPolicy: Recycle
 EOF
 #install pv
 oc login -u system:admin
