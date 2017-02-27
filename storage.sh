@@ -31,8 +31,7 @@ spec:
     path: gv0
     readOnly: false
   persistentVolumeReclaimPolicy: Retain
-EOF  
-
+EOF
 #install pv
 oc login -u system:admin
 oc create -f gluster-pv.yaml
@@ -48,7 +47,6 @@ spec:
   ports:
   - port: 1 # ignored
 EOF
-
 # create endpoints
 #gluster-endpoints.yaml
 cat <<EOF > gluster-endpoints.yaml
