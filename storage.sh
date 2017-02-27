@@ -72,6 +72,8 @@ ls /mnt/gv0/
 gluster volume status
 
 #apply in project e.g. payments-gateway
+#create project as developer
+#oc login -u developer
 #oc new-project payments-gateway
 #oc login -n payments-gateway -u system:admin
 #oc create -f gluster-service.yaml
