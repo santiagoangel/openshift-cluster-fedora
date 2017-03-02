@@ -1,7 +1,7 @@
 #!/bin/sh
 #run:
 #export MASTERIP=192.168.88.98
-#cd ~; wget https://raw.githubusercontent.com/santiagoangel/openshift-cluster-fedora/master/storage.sh; sh storage.sh
+#cd ~; wget https://raw.githubusercontent.com/santiagoangel/openshift-cluster-fedora/1.4.1/storage.sh; sh storage.sh
 
 
 dnf install -y glusterfs-server
