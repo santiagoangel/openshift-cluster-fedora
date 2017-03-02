@@ -3,7 +3,7 @@
 #start on a fresh Fedora Server install: https://download.fedoraproject.org/pub/fedora/linux/releases/25/Server/x86_64/iso/Fedora-Server-dvd-x86_64-25-1.3.iso
 #or Fedora Atomic: https://download.fedoraproject.org/pub/alt/atomic/stable/Fedora-Atomic-25-20170215.1/Atomic/x86_64/iso/Fedora-Atomic-ostree-x86_64-25-20170215.1.iso
 #then:
-#dnf install -y wget; wget https://raw.githubusercontent.com/santiagoangel/openshift-cluster-fedora/master/install-xip.sh; sh install-xip.sh
+#dnf install -y wget; wget https://raw.githubusercontent.com/santiagoangel/openshift-cluster-fedora/1.4.1/install-xip.sh; sh install-xip.sh
 #->answer propmt questions
 
 #install packages
