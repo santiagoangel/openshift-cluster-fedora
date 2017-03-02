@@ -25,8 +25,8 @@ alternatives --config python
 
 #clone git projects
 cd ~
-git clone https://github.com/openshift/openshift-ansible
-git clone https://github.com/santiagoangel/openshift-cluster-fedora
+git clone 1.4.1 https://github.com/openshift/openshift-ansible
+git clone 1.4.1 https://github.com/santiagoangel/openshift-cluster-fedora
 
 #apply hosts
 
